@@ -20,29 +20,98 @@
     <body>
       <!-- Navigation code starts here -->
         <header>
-          <nav>
-            <h1><a href="index.html">MK Tokaria</a></h1>
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="education.html">Education</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
+          <nav class="navbar sticky-top navbar-expand-lg navbar-light grid" id="navbar">
+            <div class="container grid-container">
+              <a class="navbar-brand mb-0 h1" href="index.html">MK Tokaria</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="grid-20 collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto hoverable">
+                  <li class="nav-item border-right p-2 bd-highlight active"><a class="nav-link" href="index.html">Home
+                    <span class="sr-only">(current)</span></a></li>
+                  <li class="nav-item border-right p-2 bd-highlight"><a class="nav-link" href="about.html">About</a></li>
+                  <li class="nav-item border-right p-2 bd-highlight"><a class="nav-link" href="projects.html">Projects</a></li>
+                  <li class="nav-item border-right p-2 bd-highlight"><a class="nav-link" href="education.html">Education</a></li>
+                  <li class="nav-item p-2 bd-highlight"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
           </nav>
         </header>
 
         <!-- Elements includes paragraph, heading, image and other formats -->
           <main>
-            <section>
-              <h1>Lorem Ipsum paragraph just for testing </h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <section class="mainBanner text-white text-center">
+              <div class="overlay">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xl mx-auto">
+                      <h1 class="mb-12" style="padding-top: 60px">"Engineering or Technology is all about using the power of
+                                        science to make life better for people, to reduce cost, to
+                                        improve comfort, to improve productivity, etc."</h1><br>
+                      <p id="quoteAuthor"><b> - N. R. Narayana Murthy</b></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="recentProjects text-center">
+              <div class="container grid-container" id="headingContainer">
+                <h2 class="grid-100" id="ProjHeading">Most recent projects</h2><hr style="margin-top: 0rem; margin-bottom: 0.1rem;">
+              </div>
+
+              <div class="container grid-container grid-100" style="background-color: #F1CEB9">
+                <div class="grid-50">
+                  <div class="projectContainer">
+                    <a href="">
+                      <img class="rounded-circle" src="Assets/images/tempProject.jpg" width="350" height="350">
+                    </a>
+                    <h5>Mohammed</h5>
+                    <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+                  </div>
+                </div>
+
+                <div class="grid-50">
+                  <div class="projectContainer">
+                    <a href="">
+                      <img class="rounded-circle" src="Assets/images/tempProject.jpg" width="350" height="350">
+                    </a>
+                    <h5>Mohammed</h5>
+                    <p class="font-weight-light mb-0">"This is fantastic! Thanks so much guys!"</p>
+                  </div>
+                </div>
+              </div>
             </section>
           </main>
 
           <!-- Footer starts from here -->
-            <footer>
+            <footer class="footer">
+              <div class="container grid-container">
+                <div class="row">
+                  <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <p class="text-muted medium mb-4 mb-lg-0">&copy; MKTokaria 2018. All Rights Reserved.</p>
+                  </div>
 
+                  <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                    <ul class="list-inline mb-0">
+                      <li class="list-inline-item mr-3">
+                        <a href="https://www.fb.com/mutokaria" target="_blank"><i class="fab fa-facebook fa-3x fa-fw"></i></a>
+                      </li>
+
+                      <li class="list-inline-item mr-3">
+                        <a href="https://www.twitter.com/Ubaidtokaria007" target="_blank"><i class="fab fa-twitter-square fa-3x fa-fw"></i></a>
+                      </li>
+
+                      <li class="list-inline-item">
+                        <a href="https://www.instagram.com/_mkt96" target="_blank"><i class="fab fa-instagram fa-3x fa-fw"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </footer>
     </body>
 </html>
