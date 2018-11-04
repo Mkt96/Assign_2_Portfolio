@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 /* reset the page */
   html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,
@@ -31,7 +31,8 @@
 
   p
   {
-    font-family: Merriweather;
+    font-family: Roboto;
+    font-size: 20px;
   }
 
 	@media screen and (max-width: 480px)
@@ -62,14 +63,14 @@
 
   .navbar-brand   /* Text logo */
   {
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 700;
     font-size: 40px;
   }
 
   .navbar-nav
   {
-    font-family: 'Merriweather', serif;
+    font-family: 'Roboto', san-serif;
     font-weight: bold;
     font-size: 20px;
   }
@@ -105,13 +106,15 @@
   {
     text-align: right;
     font-size: 20px;
+    font-weight: bold;
   }
 
   @media (min-width: 768px)
   {
     #quoteAuthor {
        text-align: right;
-       font-size: 28px;
+       font-size: 36px;
+       font-weight: bold;
     }
 
     .mainBanner {
@@ -124,25 +127,25 @@
     }
   }
 
+  #headingContainer
+  {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #headingText
+  {
+    background-color: #B7C8C5;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 36px;
+    color: #C4522E;
+    margin-top: 2px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 16px;
+  }
+
   /* Homepage projects images and text */
-    #headingContainer
-    {
-      padding-left: 0px;
-      padding-right: 0px;
-    }
-
-    #ProjHeading
-    {
-      background-color: #B7C8C5;
-      font-family: 'Fira Sans', sans-serif;
-      font-size: 36px;
-      color: #C4522E;
-      margin-top: 2px;
-      padding-left: auto;
-      padding-right: auto;
-      padding-bottom: 16px;
-    }
-
     .recentProjects
     {
       padding-top: 5px;
@@ -162,6 +165,58 @@
       -webkit-box-shadow: 0px 5px 5px 0px #adb5bd;
       box-shadow: 0px 5px 5px 0px #adb5bd;
     }
+
+/* About page - Landing image and quote */
+  .aboutBanner
+  {
+    position: relative;
+    background-color: #343a40;
+    background: url("/Users/MohammedTokaria/Desktop/Year_1/Sem_1/AC11002_3wA/Assignments/Assign_2/Assign_2_Portfolio/Assets/images/aboutBanner.jpeg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+
+  .aboutBanner .overlay
+  {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  }
+
+  .aboutBanner h1
+  {
+    font-size: 24px;
+  }
+
+  #quoteAuthor
+  {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  @media (min-width: 768px)
+  {
+    #quoteAuthor {
+       text-align: right;
+       font-size: 36px;
+       font-weight: bold;
+    }
+
+    .aboutBanner {
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+    }
+
+    .aboutBanner h1 {
+      font-size: 52px;
+    }
+  }
 
 /* Footer starts from here */
 .footer
