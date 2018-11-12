@@ -200,6 +200,12 @@
     font-weight: bold;
   }
 
+  #mugShot
+  {
+    float: right;
+    padding-top: 15px
+  }
+
   @media (min-width: 768px)
   {
     #quoteAuthor {
