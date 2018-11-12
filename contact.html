@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <meta name="description" content="This is my design of the PortFolio">
+    <meta name="keywords" content="design, PortFolio">
+    <meta name="author" content="Mohammed Ubaid Tokaria">
+
+    <!-- Adding multiple css stylesheets to make the website
+         look professional -->
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/css/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!-- Adding multiple scripts to make the toggle work when the
+         screen size is reduced -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Title of the website -->
+      <title>Contact Me</title>
+  </head>
+
+  <!-- This section of code includes navigation and main body elements -->
+    <body>
+      <!-- Navigation code starts here -->
+        <header>
+          <nav class="navbar sticky-top navbar-expand-lg navbar-light grid" id="navbar">
+            <div class="container grid-container">
+              <a class="navbar-brand mb-0 h1" href="index.html">MK Tokaria</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ml-auto hoverable">
+                  <li class="nav-item border-right p-2 bd-highlight"><a class="nav-link" href="index.html">Home</a></li>
+                  <li class="nav-item border-right p-2 bd-highlight"><a class="nav-link" href="about.html">About</a></li>
+                  <li class="nav-item border-right p-2 bd-highlight"><a class="nav-link" href="projects.html">Projects</a></li>
+                  <li class="nav-item border-right p-2 bd-highlight"><a class="nav-link" href="cv.html">My CV</a></li>
+                  <li class="nav-item p-2 bd-highlight active"><a class="nav-link" href="contact.html">Contact
+                    <span class="sr-only">(current)</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <!-- Elements includes paragraph, heading, image and other elements -->
+          <main>
+            <!-- Heading and sub-heading of the page -->
+              <section class="grid-container">
+                <div class="container grid-container" id="headingContainer">
+                  <h2 class="grid-100" id="headingText" style="padding-bottom: 5px">Contact Me</h2>
+                  <p class="grid-100" style="background-color: #D7E1DF;">I'd love to hear from you.</p>
+                  <hr class="grid-100" style="margin-top: 2px; margin-bottom: 5px">
+                </div>
+
+                <div class="grid">
+                  <div class="grid-65">
+                    <div class="form-container">
+                      <form method="post" id="reused_form" style="font-family: 'Roboto', san-serif;">
+                        <label for="name">Your Name:</label>
+                        <input id="name" type="text" name="Name" required maxlength="50">
+                        <label for="email">Email Address:</label>
+                        <input id="email" type="email" name="Email" required maxlength="50">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="Message" rows="10" maxlength="6000" required></textarea>
+                        <button class="button-primary" type="submit" >Post</button>
+                      </form>
+
+                      <div id="success_message" style="display:none">
+                          <h3>Submitted the form successfully!</h3>
+                          <p> I will get back to you soon. </p>
+                      </div>
+                      <div id="error_message" style="width:100%; height:100%; display:none; "> <h3>Error</h3> Sorry there was an error sending your form. </div>
+                    </div>
+                  </div>
+                </div>
+
+              <!-- Twitter widget starts her -->
+                <div class="grid-container" id="twit-widget">
+                    <a class="twitter-timeline" data-width="350" data-height="410" data-theme="light" href="https://twitter.com/Ubaidtokaria007?ref_src=twsrc%5Etfw">Tweets by Ubaidtokaria007</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8">
+                    </script>
+                </div>
+                <hr class="grid-100" style="margin-top: 1px; margin-bottom: 2.5px">
+              </section>
+          </main>
+
+          <!-- Footer starts from here -->
+            <footer class="footer">
+              <div class="container grid-container">
+                <div class="row">
+                  <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <p class="text-muted medium mb-4 mb-lg-0" style="font-size: 16px">&copy; MKTokaria 2018. All Rights Reserved.</p>
+                  </div>
+
+                  <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                    <ul class="list-inline mb-0">
+                      <li class="list-inline-item mr-3">
+                        <a href="https://www.fb.com/mutokaria" target="_blank"><i class="fab fa-facebook fa-3x fa-fw"></i></a>
+                      </li>
+
+                      <li class="list-inline-item mr-3">
+                        <a href="https://www.twitter.com/Ubaidtokaria007" target="_blank"><i class="fab fa-twitter-square fa-3x fa-fw"></i></a>
+                      </li>
+
+                      <li class="list-inline-item">
+                        <a href="https://www.instagram.com/_mkt96" target="_blank"><i class="fab fa-instagram fa-3x fa-fw"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </footer>
+    </body>
+</html>

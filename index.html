@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+    <meta name="description" content="This is my design of the PortFolio">
+    <meta name="keywords" content="design, PortFolio">
+    <meta name="author" content="Mohammed Ubaid Tokaria">
+
+    <!-- Adding multiple css stylesheets to make the website
+         look professional -->
+    <link rel="stylesheet" href="Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Assets/css/unsemantic-grid-responsive-tablet.css">
+    <link rel="stylesheet" href="Assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <!-- Adding multiple scripts to make the toggle work when the
+         screen size is reduced -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <!-- Title of the website -->
+      <title>Mohammed Tokaria | Welcome</title>
+  </head>
+
+  <!-- This section of code includes navigation and main body elements -->
+    <body>
+      <!-- Navigation code starts here -->
+        <header>
+          <nav class="navbar sticky-top navbar-expand-lg navbar-light grid" id="navbar">
+            <div class="container grid-container">
+              <a class="navbar-brand mb-0 h1" href="index.html">MK Tokaria</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <ul class="navbar-nav ml-auto hoverable">
+                  <li class="nav-item border-right p-2 bd-highlight active"><a class="nav-link" href="index.html">Home
+                    <span class="sr-only">(current)</span></a></li>
+                  <li class="nav-item border-right p-2 bd-highlight"><a class="nav-link" href="about.html">About</a></li>
+                  <li class="nav-item border-right p-2 bd-highlight"><a class="nav-link" href="projects.html">Projects</a></li>
+                  <li class="nav-item border-right p-2 bd-highlight"><a class="nav-link" href="cv.html">My CV</a></li>
+                  <li class="nav-item p-2 bd-highlight"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
+
+        <!-- Elements includes paragraph, heading, image and other elements -->
+          <main>
+            <section class="mainBanner text-white text-center">
+              <div class="overlay">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-xl mx-auto">
+                      <h1 class="mb-12" style="padding-top: 60px">"Engineering or Technology is all about using the power of
+                                        science to make life better for people, to reduce cost, to
+                                        improve comfort, to improve productivity, etc."</h1><br>
+                      <p id="quoteAuthor"><b> - N. R. Narayana Murthy</b></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="recentProjects text-center">
+              <div class="container grid-container" id="headingContainer">
+                <h2 class="grid-100" id="headingText">Most recent projects</h2>
+                <hr style="margin-top: 0rem; margin-bottom: 0.1rem;">
+                <hr class="grid-100" style="margin-top: 1px; margin-bottom: 2.5px">
+              </div>
+
+              <div class="container grid-container grid-100" style="background-color: #F8E8DF">
+                <div class="grid-33">
+                  <div class="projectContainer">
+                    <a href="projects.html#proj_1">
+                      <img class="rounded-circle" src="Assets/images/project_1.jpg" width="300" height="300">
+                    </a>
+                    <h5>Project 1</h5>
+                    <p class="font-weight-light mb-0">Click on the image to read more about this project</p>
+                  </div>
+                </div>
+
+                <div class="grid-33">
+                  <div class="projectContainer">
+                    <a href="projects.html#proj_2">
+                      <img class="rounded-circle" src="Assets/images/project_2.jpg" width="300" height="300">
+                    </a>
+                    <h5>Project 2</h5>
+                    <p class="font-weight-light mb-0">Click on the image to read more about this project</p>
+                  </div>
+                </div>
+
+                <div class="grid-33">
+                  <div class="projectContainer">
+                    <a href="projects.html#proj_3">
+                      <img class="rounded-circle" src="Assets/images/project_3.jpg" width="300" height="300">
+                    </a>
+                    <h5>Project 3</h5>
+                    <p class="font-weight-light mb-0">Click on the image to read more about this project</p>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </main>
+
+          <!-- Footer starts from here -->
+            <footer class="footer">
+              <div class="container grid-container">
+                <div class="row">
+                  <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+                    <p class="text-muted medium mb-4 mb-lg-0">&copy; MKTokaria 2018. All Rights Reserved.</p>
+                  </div>
+
+                  <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+                    <ul class="list-inline mb-0">
+                      <li class="list-inline-item mr-3">
+                        <a href="https://www.fb.com/mutokaria" target="_blank"><i class="fab fa-facebook fa-3x fa-fw"></i></a>
+                      </li>
+
+                      <li class="list-inline-item mr-3">
+                        <a href="https://www.twitter.com/Ubaidtokaria007" target="_blank"><i class="fab fa-twitter-square fa-3x fa-fw"></i></a>
+                      </li>
+
+                      <li class="list-inline-item">
+                        <a href="https://www.instagram.com/_mkt96" target="_blank"><i class="fab fa-instagram fa-3x fa-fw"></i></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </footer>
+    </body>
+</html>
