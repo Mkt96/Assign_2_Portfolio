@@ -35,6 +35,12 @@
     font-size: 20px;
   }
 
+  td
+  {
+    font-family: Roboto;
+    font-size: 16px;
+  }
+
 	@media screen and (max-width: 480px)
   {
 		html, body {
@@ -223,6 +229,26 @@
       font-size: 52px;
     }
   }
+
+/* Curriculam Vitae */
+  #cvHeading
+  {
+    border-right: 2px solid white;
+  }
+
+  #cvContent
+  {
+    display: right;
+    padding-left: 2rem;
+  }
+
+  #table
+  {
+    font-weight: bold;
+    display: right;
+    padding-left: 5rem;
+  }
+
 /* Contact page */
   @media  only screen and (min-device-width: 768px)
   {
