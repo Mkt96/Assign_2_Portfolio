@@ -255,12 +255,50 @@
   }
 
 /* Curriculam Vitae */
-  #cvHeading
+  #profile
   {
     border-right: 2px solid white;
   }
 
-  #cvContent
+  #education
+  {
+    border-right: 2px solid white;
+  }
+
+  #employement
+  {
+    border-right: 2px solid white;
+  }
+
+  #workExp
+  {
+    border-right: 2px solid white;
+  }
+
+  #hob_interests
+  {
+    border-right: 2px solid white;
+  }
+
+  #profile_Content
+  {
+    display: right;
+    padding-left: 2rem;
+  }
+
+  #emp_Content
+  {
+    display: right;
+    padding-left: 2rem;
+  }
+
+  #workExp_Content
+  {
+    display: right;
+    padding-left: 2rem;
+  }
+
+  #hob_interests_Content
   {
     display: right;
     padding-left: 2rem;
