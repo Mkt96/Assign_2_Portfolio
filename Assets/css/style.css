@@ -161,8 +161,7 @@
     font-size: 36px;
     color: #C4522E;
     margin-top: 2px;
-    padding-left: auto;
-    padding-right: auto;
+    display: block;
     padding-bottom: 16px;
   }
 
@@ -177,8 +176,7 @@
     {
       margin-top: 20px;
       padding-bottom: 20px;
-      padding-left: auto;
-      padding-right: auto;
+      display: block;
     }
 
     .recentProjects .projectContainer img
@@ -282,32 +280,32 @@
 
   #profile_Content
   {
-    display: right;
+    float: left;
     padding-left: 2rem;
   }
 
   #emp_Content
   {
-    display: right;
+    float: left;
     padding-left: 2rem;
   }
 
   #workExp_Content
   {
-    display: right;
+    float: left;
     padding-left: 2rem;
   }
 
   #hob_interests_Content
   {
-    display: right;
+    float: left;
     padding-left: 2rem;
   }
 
   #table
   {
     font-weight: bold;
-    display: right;
+    float: left;
     padding-left: 5rem;
   }
 
