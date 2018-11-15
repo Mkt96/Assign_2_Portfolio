@@ -292,13 +292,7 @@
     padding-left: 2rem;
   }
 
-  #workExp_Content1
-  {
-    display: right;
-    padding-left: 2rem;
-  }
-
-  #workExp_Content2
+  #workExp_Content
   {
     display: right;
     padding-left: 2rem;
@@ -315,6 +309,21 @@
     font-weight: bold;
     display: right;
     padding-left: 5rem;
+  }
+
+  .content
+  {
+    font-family: Roboto;
+    font-size: 16px;
+  }
+
+  @media  (min-width: 768px)
+  {
+    .content
+    {
+      font-family: Roboto;
+      font-size: 20px;
+    }
   }
 
 /* Contact page */
