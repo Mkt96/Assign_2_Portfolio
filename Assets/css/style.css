@@ -292,7 +292,13 @@
     padding-left: 2rem;
   }
 
-  #workExp_Content
+  #workExp_Content1
+  {
+    display: right;
+    padding-left: 2rem;
+  }
+
+  #workExp_Content2
   {
     display: right;
     padding-left: 2rem;
